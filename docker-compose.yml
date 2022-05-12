@@ -64,7 +64,6 @@ services:
         - MHSENDMAIL_VERSION=${MHSENDMAIL_VERSION}
         - USER_ID=${USER_ID}
         - GROUP_ID=${GROUP_ID}
-        - USER_NAME=${USER_NAME}
       context: ./docker/php
       target: php
     container_name: ${PROJECT_NAME}-php
